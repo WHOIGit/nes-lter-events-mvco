@@ -535,15 +535,6 @@
   </dataset>
   <additionalMetadata>
     <metadata>
-      <unitList>
-        <unit id="micromolePerLiter" multiplierToSI="0.001" name="micromolePerLiter" parentSI="molePerCubicMeter" unitType="amountOfSubstanceConcentration">
-          <description>micromole per liter</description>
-        </unit>
-      </unitList>
-    </metadata>
-  </additionalMetadata>
-  <additionalMetadata>
-    <metadata>
       <emlEditor>
         <app>EMLassemblyline</app>
         <release>3.5.5</release>
