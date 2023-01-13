@@ -1,2 +1,3 @@
-This would contain a description of methods used in data collection,
-preparation, and QA/QC, among other things.
+About Martha's Vineyard Coastal Observatory
+
+The Martha's Vineyard Coastal Observatory (MVCO) Air-Sea Interaction Tower (ASIT) is located at 41.325 N, 70.567 W. See https://mvco.whoi.edu/about/ for more site information. Discrete samples were collected in the vicinity of the tower.

@@ -1,2 +1,1 @@
-This is a minimal demonstration of the EDI EML assembly line workflow based on
-a small subset of NES-LTER nutrient data.
+This package provides a table of day cruises to the Martha's Vineyard Coastal Observatory for Northeast U.S. Shelf Long-Term Ecological Research (NES-LTER). The event number for each cruise is provided, along with date, vessel name, cruise identifer where applicable, season, link to data location, and checklist of six data types. 

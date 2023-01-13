@@ -1,0 +1,80 @@
+---
+title: "MVCO cruise list packaging workflow"
+author: "Kate Morkeski"
+date: "2023-01-13"
+output: html_notebook
+---
+
+Libraries used
+
+```{r}
+# two of the required packages are installed from GitHub
+#library(remotes)
+# remotes::install_github("EDIorg/EMLassemblyline")
+#remotes::install_github("WHOIGit/ediutilities")
+
+library(EMLassemblyline)
+library(ediutilities)
+library(here)
+library(lubridate)
+
+```
+
+Read data table
+
+```{r}
+
+events <- read.csv(here('nes-lter-events-mvco-draft.csv'))
+
+
+```
+
+Update and write data table
+
+```{r}
+
+events$date = ymd(events$date)
+
+# any action to take regarding SB note from LStolp email? Or any other notes in google doc?
+# update new Ryan Marine boat?
+
+# remove non-LTER cruise rows?
+
+# rename Notes to comment
+colnames(events)[15] <- "comment"
+
+write.csv(events, 'nes-lter-events-mvco.csv', row.names = FALSE)
+
+```
+
+Read the Excel metadata template and generate text templates used by
+EMLassemblyline
+
+```{r}
+
+excel_to_template(here('nes-lter-events-mvco-info'), 'nes-lter-events-mvco', rights='CC0')
+
+```
+Generate the package and insert the parent project node into the resulting EML
+
+```{r}
+
+pkg_id <- 'knb-lter-nes.22.1'
+data_table <- events
+
+make_eml(here(),
+         dataset.title= "Event logs from Northeast U.S. Shelf Long Term Ecological Research (NES-LTER) cruises to the Martha's Vineyard Coastal Observatory ongoing since 2017",
+         data.table='nes-lter-events-mvco.csv',
+         data.table.description='List of cruises to MVCO and data types collected',
+         data.table.name = 'nes-lter-events-mvco',
+         temporal.coverage = temporal_coverage(data_table$date),
+         geographic.description = "NES-LTER Transect",
+         geographic.coordinates = geographic_coordinates(41.325, 70.567),
+         maintenance.description = "ongoing",
+         user.id = "NES",
+         user.domain = "LTER",
+         package.id = pkg_id)
+
+project_insert(pkg_id)
+
+```
