@@ -42,9 +42,9 @@
       <userId directory="https://orcid.org">https://orcid.org/0000-0002-2903-5851</userId>
       <role>metadataProvider</role>
     </associatedParty>
-    <pubDate>2023-01-13</pubDate>
+    <pubDate>2023-01-19</pubDate>
     <abstract>
-      <para>This package provides a table of day cruises to the Martha's Vineyard Coastal Observatory for Northeast U.S. Shelf Long-Term Ecological Research (NES-LTER). The event number for each cruise is provided, along with date, vessel name, cruise identifer where applicable, season, link to data location, and checklist of six data types. &#13;
+      <para>This package provides a table of day cruises to the Martha's Vineyard Coastal Observatory for Northeast U.S. Shelf Long-Term Ecological Research (NES-LTER). The event number for each cruise is provided, along with date, vessel name, cruise identifer where applicable, link to data location, and checklist of six data types. &#13;
 </para>
     </abstract>
     <keywordSet>
@@ -56,15 +56,19 @@
       <keywordThesaurus>LTER Core Research Areas</keywordThesaurus>
     </keywordSet>
     <keywordSet>
-      <keyword>dataloggers</keyword>
+      <keyword>CTD</keyword>
       <keyword>events</keyword>
-      <keyword>global positioning systems</keyword>
       <keyword>scientific activities</keyword>
       <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
     </keywordSet>
     <keywordSet>
-      <keyword>Northeast U.S. Continental Shelf</keyword>
-      <keywordThesaurus>NOAA Large Marine Ecosystems</keywordThesaurus>
+      <keyword>Bongo net</keyword>
+      <keywordThesaurus>SeaVoX Device Catalogue</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Acoustic Doppler Current Profiler</keyword>
+      <keyword>Thermosalinographs</keyword>
+      <keywordThesaurus>Global Change Master Directory Instrument Keywords</keywordThesaurus>
     </keywordSet>
     <intellectualRights>
       <para>This data package is released to the "public domain" under Creative Commons CC0 1.0 "No Rights Reserved" (see: https://creativecommons.org/publicdomain/zero/1.0/). It is considered professional etiquette to provide attribution of the original work if this data package is shared in whole or by individual components. A generic citation is provided for this data package on the website https://portal.edirepository.org (herein "website") in the summary metadata page. Communication (and collaboration) with the creators of this data package is recommended to prevent duplicate research or publication. This data package (and its components) is made available "as is" and with no warranty of accuracy or fitness for use. The creators of this data package and the website shall not be liable for any damages resulting from misinterpretation or misuse of the data package or its components. Periodic updates of this data package may be available from the website. Thank you.
@@ -72,7 +76,7 @@
     </intellectualRights>
     <coverage>
       <geographicCoverage>
-        <geographicDescription>NES-LTER Transect</geographicDescription>
+        <geographicDescription>Martha's Vineyard Coastal Observatory</geographicDescription>
         <boundingCoordinates>
           <westBoundingCoordinate>70.567</westBoundingCoordinate>
           <eastBoundingCoordinate>70.567</eastBoundingCoordinate>
@@ -211,8 +215,8 @@
       <entityDescription>List of cruises to MVCO and data types collected</entityDescription>
       <physical>
         <objectName>nes-lter-events-mvco.csv</objectName>
-        <size unit="bytes">16998</size>
-        <authentication method="MD5">7033935e54cf417010e609d75678d21d</authentication>
+        <size unit="bytes">13468</size>
+        <authentication method="MD5">327ea436c73c2720daffff372614358c</authentication>
         <dataFormat>
           <textFormat>
             <numHeaderLines>1</numHeaderLines>
@@ -288,53 +292,6 @@
           <missingValueCode>
             <code>NA</code>
             <codeExplanation>Vessel was other than R/V Tioga</codeExplanation>
-          </missingValueCode>
-        </attribute>
-        <attribute>
-          <attributeName>season</attributeName>
-          <attributeDefinition>Season in which event occurred, based on calendar month</attributeDefinition>
-          <storageType>string</storageType>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain>
-                <enumeratedDomain>
-                  <codeDefinition>
-                    <code>Fall</code>
-                    <definition>Event occurred in September, October, or November</definition>
-                  </codeDefinition>
-                  <codeDefinition>
-                    <code>Spring</code>
-                    <definition>Event occurred in March, April, or May</definition>
-                  </codeDefinition>
-                  <codeDefinition>
-                    <code>Summer</code>
-                    <definition>Event occurred in June, July, or August</definition>
-                  </codeDefinition>
-                  <codeDefinition>
-                    <code>Winter</code>
-                    <definition>Event occurred in December, January, or February</definition>
-                  </codeDefinition>
-                </enumeratedDomain>
-              </nonNumericDomain>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>NES.LTER.Google.folder</attributeName>
-          <attributeDefinition>Link to project data location</attributeDefinition>
-          <storageType>string</storageType>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain>
-                <textDomain>
-                  <definition>Link to project data location</definition>
-                </textDomain>
-              </nonNumericDomain>
-            </nominal>
-          </measurementScale>
-          <missingValueCode>
-            <code>NA</code>
-            <codeExplanation>Missing value</codeExplanation>
           </missingValueCode>
         </attribute>
         <attribute>
@@ -452,6 +409,10 @@
                     <code>No</code>
                     <definition>This data type was not collected</definition>
                   </codeDefinition>
+                  <codeDefinition>
+                    <code>NotApplicable</code>
+                    <definition>Not applicable because cruise was for project other than NES-LTER</definition>
+                  </codeDefinition>
                 </enumeratedDomain>
               </nonNumericDomain>
             </nominal>
@@ -477,6 +438,10 @@
                     <code>No</code>
                     <definition>This data type was not collected</definition>
                   </codeDefinition>
+                  <codeDefinition>
+                    <code>NotApplicable</code>
+                    <definition>Not applicable because cruise was for project other than NES-LTER</definition>
+                  </codeDefinition>
                 </enumeratedDomain>
               </nonNumericDomain>
             </nominal>
@@ -488,7 +453,7 @@
         </attribute>
         <attribute>
           <attributeName>bongo_or_other_net</attributeName>
-          <attributeDefinition>Indication of whether bongo nets or other nets were deployed</attributeDefinition>
+          <attributeDefinition>Indication of whether bongo net or other type of plankton net was deployed</attributeDefinition>
           <storageType>string</storageType>
           <measurementScale>
             <nominal>
@@ -503,8 +468,12 @@
                     <definition>This data type was not collected</definition>
                   </codeDefinition>
                   <codeDefinition>
-                    <code>?</code>
-                    <definition>This data type was possibly collected</definition>
+                    <code>Unknown</code>
+                    <definition>Unknown whether or not this data type was collected</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NotApplicable</code>
+                    <definition>Not applicable because cruise was for project other than NES-LTER</definition>
                   </codeDefinition>
                 </enumeratedDomain>
               </nonNumericDomain>

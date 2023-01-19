@@ -1,82 +1,82 @@
-"date","event_number","ship","cruise_ID","season","NES.LTER.Google.folder","Tioga_data_at_WHOI_DLA","Tioga_data_at_WHOI_DLA_alternate","ADCP","underway","CTD","Niskin_samples","bucket_sample","bongo_or_other_net","comment"
-2017-09-01,"MVCO_386","Tioga","ti984","Fall","https://drive.google.com/drive/folders/0B0p75EKpP4H0NVJnMnZ4ckRjb0E?usp=sharing","https://dlacruisedata.whoi.edu/tioga/cruise/ti984/","","Yes","Yes","No","No","Yes","No",""
-2017-10-17,"MVCO_387","Tioga","ti995","Fall","https://drive.google.com/drive/folders/0B2BVKgIMGe3qZFR4WVBGNGRCdk0?usp=sharing","https://dlacruisedata.whoi.edu/tioga/cruise/ti995/","","No","Yes","Yes","Yes","Yes","No",""
-2017-11-15,"MVCO_388","Tioga","ti1001","Fall","https://drive.google.com/drive/folders/19dFHeCDodb_Q4VS2Rv6mc09oZd96gSmN?usp=sharing","https://dlacruisedata.whoi.edu/tioga/cruise/ti1001/","","No","Yes","Yes","Yes","Yes","No",""
-2017-12-04,"MVCO_389","Tioga","ti1004","Winter","https://drive.google.com/drive/folders/11JdK7354UpF6QpnhNLsqJjNQ-jF0K3n3?usp=sharing","https://dlacruisedata.whoi.edu/tioga/cruise/ti1004/","","No","Yes","Yes","Yes","Yes","No",""
-2018-01-22,"MVCO_390","Tioga","ti1006","Winter","https://drive.google.com/drive/folders/1xpzCfOwqfeIV4ngHG-D3uVChGnE_9Vb0?usp=sharing","https://dlacruisedata.whoi.edu/tioga/cruise/ti1006/","","No","Yes","Yes","Yes","Yes","No","TOI, salts, and DIC for Stanley lab"
-2018-02-27,"MVCO_391","Tioga","ti1009","Winter","https://drive.google.com/drive/folders/1-HBLvARUGATdy8m69fpaUgwghDIRqD4t?usp=sharing","https://dlacruisedata.whoi.edu/tioga/cruise/ti1009/","","Yes","Yes","Yes","Yes","Yes","No","CTD data not available at WHOI DLA"
-2018-03-24,"MVCO_392","Tioga","ti1011","Spring","https://drive.google.com/drive/folders/1PQ5A33NzLYTWdawJwylMcq1DmuZxkbfB?usp=sharing","https://dlacruisedata.whoi.edu/tioga/cruise/ti1011/","","Yes","Yes","Yes","Yes","Yes","Yes",""
-2018-04-11,"MVCO_393","Tioga","ti1014","Spring","https://drive.google.com/drive/folders/1d_s0PlzDtJnfO7Jty_PQ-OUOU1DwwBXY?usp=sharing","https://dlacruisedata.whoi.edu/tioga/cruise/ti1014/","","Yes","Yes","No","No","Yes","No",""
-2018-05-23,"MVCO_394","Discovery",NA,"Spring","https://drive.google.com/drive/folders/1AmNltmasHVUTFVIO_w3Mxx8qCt4bRaG8?usp=sharing",NA,NA,"No","No","No","No","Yes","Yes","LTER participants include Sarah Glancy"
-2018-06-08,"MVCO_395","Discovery",NA,"Summer","https://drive.google.com/drive/folders/11Uxkka3MMFM83qIXmvxHEehS2sC3EIqW?usp=sharing",NA,NA,"No","No","No","No","Yes","No",""
-2018-06-21,"MVCO_396","Discovery",NA,"Summer","https://drive.google.com/drive/folders/1pVtYGNJW_gfgb4J0nB9pZ75DMIFNHX6P?usp=sharing",NA,NA,"No","No","No","No","Yes","Yes","notable crab megalopae bongo"
-2018-07-02,"MVCO_397","Discovery",NA,"Summer","https://drive.google.com/drive/folders/1AjNTfFWW9s_ngxTodm8hESFOtPlV51kR?usp=sharing",NA,NA,"No","No","No","No","Yes","No",""
-2018-08-10,"MVCO_398","RR",NA,"Summer","https://drive.google.com/drive/folders/171JLK3ARup0lRq2xV6LsXI5sGbEiAWtl?usp=sharing",NA,NA,"No","No","No","No","Yes","Yes","LTER participants include Emily Peacock"
-2018-08-28,"MVCO_399","Discovery",NA,"Summer","https://drive.google.com/drive/folders/1ms_4pgZ9KVE2g1tJa14iKa-xsusJzG8W?usp=sharing",NA,NA,"No","No","No","No","Yes","No","bucket sample could be questionable due to black particles on all filters except <10"
-2018-09-05,"MVCO_400","Discovery",NA,"Fall","https://drive.google.com/drive/folders/1C1smFUOUVubLYLyzKOF-VRkBaf7nn_VB?usp=sharing",NA,NA,"No","No","No","No","Yes","No","powered down the tower for major cable work"
-2018-09-17,"MVCO_401","RR",NA,"Fall","https://drive.google.com/drive/folders/1sJ_CHVBXv60CMiA9zboaLY5nwtUpr3ZQ?usp=sharing",NA,NA,"No","No","No","No","Yes","No",""
-2018-09-20,"MVCO_402","RR",NA,"Fall","https://drive.google.com/drive/folders/1nLMpDrOD8CUYtZoXc9oFD_D28reZo3VW?usp=sharing",NA,NA,"No","No","No","No","Yes","No",""
-2018-10-08,"MVCO_403","Tioga","ti1021","Fall","https://drive.google.com/drive/folders/1hIe-EMXl2qnkXgveAohfUjrbEn6IoliR?usp=sharing","https://dlacruisedata.whoi.edu/tioga/cruise/ti1021/","","No","Yes","Yes","Yes","No","Yes","12 bottle rosette but software calling for 24 bottle so needed to double trip per niskin; LTER participants include Taylor Crockford and Sarah Glancy; notable salps bongo"
-2018-10-31,"MVCO_404","RR",NA,"Fall","https://drive.google.com/drive/folders/1kX4tivtnpIHsUuZcfokvrJzsAr3yBZP2?usp=sharing",NA,NA,"No","No","No","No","Yes","No",""
-2018-11-20,"MVCO_405","RR",NA,"Fall","https://drive.google.com/drive/folders/14Nm8JqLJHyYCeEHS8v9GB-K8QColm7IF?usp=sharing",NA,NA,"No","No","No","No","Yes","No",""
-2018-12-05,"MVCO_406","Tioga","ti1030","Winter","https://drive.google.com/drive/folders/12Eo4wRU7fs_Mv9cqgfHWfCPwrbrwi7Vu?usp=sharing","https://dlacruisedata.whoi.edu/tioga/cruise/ti1030/","","Yes","Yes","Yes","Yes","No","Yes",""
-2018-12-20,"MVCO_407","Hurricane",NA,"Winter","https://drive.google.com/drive/folders/16r4uEw-CzCJ4s9AQFIasxGEC_1xSC6h5?usp=sharing",NA,NA,"No","No","No","No","Yes","No",""
-2019-01-18,"MVCO_408","Richard Edwards",NA,"Winter","https://drive.google.com/drive/folders/1C4x14LlWUksh6bpZZ_j6TtVFk_RJV9Gw?usp=sharing",NA,NA,"No","No","No","No","Yes","No",""
-2019-02-11,"MVCO_409","Richard Edwards",NA,"Winter","https://drive.google.com/drive/folders/1iVHzFREs5r-g9LUlhtuPcvDKyUiF2biQ?usp=sharing",NA,NA,"No","No","No","No","Yes","No","bucket sample processing limited to IFCB"
-2019-02-20,"MVCO_410","Discovery",NA,"Winter","https://drive.google.com/drive/folders/1ekEaiPr4W7vcv3DOAGMla0zy39nmXCZP?usp=sharing",NA,NA,"No","No","No","No","Yes","No",""
-2019-03-09,"MVCO_411","Discovery",NA,"Spring","https://drive.google.com/drive/folders/1A1LmaEkl9n6wdECq38uL552XG7WlBMAz?usp=sharing",NA,NA,"No","No","No","No","Yes","No",""
-2019-03-20,"MVCO_412","Discovery",NA,"Spring","https://drive.google.com/drive/folders/16UBQIpawE8I7yzabJLUhkK2uVeH19AFu?usp=sharing",NA,NA,"No","No","No","No","Yes","No",""
-2019-04-02,"MVCO_413","Discovery",NA,"Spring","https://drive.google.com/drive/folders/1VzD_mmcTvmmyAluyHCdCeGzenQZZVqsV?usp=sharing",NA,NA,"No","No","No","No","Yes","No",""
-2019-04-25,"MVCO_414","Sea Holly",NA,"Spring","https://drive.google.com/drive/folders/11UqJocj_fazWM0K08I2uIKODANkW8YHd?usp=sharing",NA,NA,"No","No","Yes","No","Yes","Yes","CTD from Mark Baumgartner; Ring net 60-cm diam with 360-um mesh; LTER participant Sarah Glancy"
-2019-05-01,"MVCO_415","new Ryan Marine boat",NA,"Spring","https://drive.google.com/drive/folders/1fZaFXILgM93805rCSj87Hkx3u3Q51SCC?usp=sharing",NA,NA,"No","No","No","No","Yes","No",""
-2019-05-07,"MVCO_416","Tioga","ti1031","Spring","https://drive.google.com/drive/folders/1HeBCA1L0jvSiYCMoOENccIrihgCqTKBv?usp=sharing","https://dlacruisedata.whoi.edu/tioga/cruise/ti1031/","","Yes","No","Yes","Yes","Yes","Yes","Science Verification Cruise; First science trip since major overhaul; LTER participants include Taylor Crockford, Sarah Glancy, Emily Peacock"
-2019-06-10,"MVCO_417","Tioga","ti1040","Summer","https://drive.google.com/drive/folders/19wAKDfmCoO3ocjcHyvWyjdOsD1MmYFhk?usp=sharing","https://dlacruisedata.whoi.edu/tioga/cruise/ti1040/","","Yes","Yes","Yes","Yes","Yes","Yes",""
-2019-08-02,"MVCO_418","Tioga","ti1057","Summer","https://drive.google.com/drive/folders/1XipVpAMsj6g_e5yDctnBzDyccCOSefC_?usp=sharing","https://dlacruisedata.whoi.edu/tioga/cruise/ti1057/","http://dlacruisedata.whoi.edu/ti/cruise/ti1057/","Yes","Yes","Yes","Yes","Yes","Yes","LTER participants include Emily Peacock, Kathy Qi"
-2019-09-16,"MVCO_419","Tioga","ti1067","Fall","https://drive.google.com/drive/folders/1_Sqps7_ZzLLkUWjD66YNEeX6AcljDYpu?usp=sharing","https://dlacruisedata.whoi.edu/tioga/cruise/ti1067/","","Yes","Yes","Yes","Yes","Yes","Yes","LTER participants include Sarah Glancy, Emily Peacock; notable ctenophores in bongo"
-2019-10-25,"MVCO_420","Tioga","ti1076","Fall",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1076/","","Yes","Yes","Yes","No","Yes","?","underway no SBE48 data due to power loss; all Sosik lab parameters collected from bucket sample; Sosik lab Comments CTD water dumped"
-2019-11-14,"MVCO_421","Blackhawk",NA,"Fall",NA,NA,NA,"No","No","No","No","Yes","?",""
-2019-11-21,"MVCO_422","Tioga","ti1082","Fall",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1082/","","No","No","Yes","Yes","Yes","Yes","LTER participants include Taylor Crockford"
-2019-12-13,"MVCO_423","Tioga","ti1084","Winter",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1084/","","Yes","Yes","No","No","Yes","No","limited Sosik lab parameters collected from bucket sample (Nut, CDOM, FCM); remaining water from bucket sample filtered through 150um mesh; Sosik lab Comments too rough; LTER participants include Jaxine Wolfe"
-2020-01-15,"MVCO_424","Tioga","ti1087","Winter",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1087/","","Yes","Yes","Yes","Yes","Yes","Yes","deployed SeaPrism; LTER participants include Taylor Crockford"
-2020-02-25,"MVCO_425","Tioga","ti1092","Winter",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1092/","","Yes","Yes","Yes","Yes","Yes","?",""
-2020-03-12,"MVCO_426","Tioga","ti1094","Spring",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1094/","","Yes","Yes","No","No","Yes","?",""
-2020-05-28,"MVCO_427","Tioga","ti1103","Spring","https://drive.google.com/drive/folders/1cDBkv0GHk47Wd6IO-mlUz1ucnhyT71kI?usp=sharing","https://dlacruisedata.whoi.edu/tioga/cruise/ti1103/","","No","Yes","Yes","Yes","Yes","?","Sosik lab Comments Gast and Hunter-Cevara"
-2020-06-01,"MVCO_428","Tioga","ti1104","Summer",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1104/","https://dlacruisedata.whoi.edu/TI/2010_to_present/all/ti1104/","Yes","Yes","Yes","Yes","Yes","Yes","Sosik lab Comments Gast"
-2020-06-29,"MVCO_429","Tioga","ti1108","Summer",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1108/","https://dlacruisedata.whoi.edu/TI/2010_to_present/all/ti1108/","Yes","Yes","No","No","Yes","No",""
-2020-06-30,NA,"Tioga","ti1109","Summer",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1109","","Yes","Yes","No",NA,NA,NA,"project other than NES LTER"
-2020-07-22,NA,"Tioga","ti1113","Summer",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1113","","Yes","Yes","No",NA,NA,NA,"project other than NES LTER"
-2020-07-23,"MVCO_430","Tioga","ti1114","Summer",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1114/","https://dlacruisedata.whoi.edu/TI/2010_to_present/all/ti1114/","Yes","Yes","Yes","Yes","Yes","?",""
-2020-07-29,NA,"Tioga","ti1115","Summer",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1115","","Yes","Yes","No",NA,NA,NA,"project other than NES LTER"
-2020-08-12,"MVCO_431","Tioga","ti1116","Summer",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1116","","Yes","Yes","No","No","Yes","?",""
-2020-08-20,NA,"Tioga","ti1118","Summer",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1118","","Yes","Yes","No",NA,NA,NA,"project other than NES LTER"
-2020-08-21,"MVCO_432","Tioga","ti1119","Summer",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1119/","https://dlacruisedata.whoi.edu/TI/2010_to_present/all/ti1119/","Yes","Yes","Yes","Yes","Yes","?",""
-2020-09-08,NA,"Tioga","ti1121","Fall",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1121","http://dlacruisedata.whoi.edu/tioga/cruise/ti1121","Yes","Yes","No",NA,NA,NA,"project other than NES LTER"
-2020-09-24,"MVCO_433","Tioga","ti1125","Fall","https://drive.google.com/drive/folders/1Kyay92MZn6EaYYsMjfA1MBEljJBFnVXt?usp=sharing","https://dlacruisedata.whoi.edu/tioga/cruise/ti1125","https://dlacruisedata.whoi.edu/TI/2010_to_present/all/ti1125/","No","Yes","Yes","Yes","Yes","Yes","LTER participants included Sarah Glancy; notable ctenophores bongo"
-2020-10-15,"MVCO_434","Tioga","ti1130","Fall",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1130","https://dlacruisedata.whoi.edu/TI/2010_to_present/all/ti1130/","Yes","Yes","Yes","Yes","Yes","?","some CTD sensors had caps left on"
-2020-10-21,NA,"Tioga","ti1132","Fall",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1132","http://dlacruisedata.whoi.edu/tioga/cruise/ti1132","No","Yes","No",NA,NA,NA,"project other than NES LTER"
-2020-11-19,"MVCO_435","Tioga","ti1136","Fall","https://drive.google.com/drive/folders/182Vc6vLlEkszRiBB540cFg9OUxS528JS?usp=sharing","https://dlacruisedata.whoi.edu/tioga/cruise/ti1136","https://dlacruisedata.whoi.edu/TI/2010_to_present/all/ti1136/","Yes","Yes","No","No","Yes","?","although there is a folder for CTD data the wire termination was damaged; LTER participants Emily Peacock and Alexi Shalapyanok"
-2020-12-11,"MVCO_436","Tioga","ti1139","Winter",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1139","https://dlacruisedata.whoi.edu/TI/2010_to_present/all/ti1139/","No","Yes","Yes","Yes","Yes","?",""
-2021-04-06,"MVCO_437","Tioga","ti1153","Spring","https://drive.google.com/drive/folders/1vZ1doQglnDwotmyOtWlGBgPZwrFaRALx?usp=sharing","https://dlacruisedata.whoi.edu/tioga/cruise/ti1153","https://dlacruisedata.whoi.edu/TI/2010_to_present/all/ti1153/","No","Yes","Yes","Yes","Yes","Yes","LTER participants include Sarah Glancy"
-2021-04-20,"MVCO_438","Tioga","ti1159","Spring",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1159/","?","No","Yes","No","No","Yes","?",""
-2021-05-13,"MVCO_439","Tioga","ti1164","Spring",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1164/","?","Yes","Yes","No","No","Yes","No",""
-2021-05-14,"MVCO_440","Tioga","ti1165","Spring",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1165/","?","No","Yes","No","No","Yes","No",""
-2021-06-30,"MVCO_441","Tioga","ti1176","Summer",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1176/","","No","Yes","No","No","Yes","?","LTER participants include Emily Peacock"
-2021-07-15,"MVCO_442","Tioga","ti1183","Summer",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1183/","","No","Yes","No","No","Yes","?",""
-2021-07-29,"MVCO_443","Tioga","ti1187","Summer",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1187/","","No","Yes","Yes","Yes","Yes","?","LTER participants include Emily Peacock"
-2021-08-13,"MVCO_444","Tioga","ti1194","Summer",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1194/","","No","Yes","No","No","Yes","?",""
-2021-08-16,"MVCO_445","Tioga","ti1195","Summer",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1195/","","No","Yes","No","No","Yes","?","CTD broken"
-2021-08-31,"MVCO_446","Tioga","ti1199","Summer",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1199/","","No","Yes","No","No","Yes","?",""
-2021-09-01,NA,"Tioga","ti1200","Fall",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1200/","","Yes","Yes","No",NA,NA,NA,"project other than NES LTER"
-2021-09-14,"MVCO_447","Tioga","ti1202","Fall",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1202/","","No","Yes","No","No","Yes","?","No time for CTD"
-2021-09-29,"MVCO_448","Tioga","ti1206","Fall",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1206/","","No","Yes","Yes","Yes","Yes","Yes","CTD data collected with wrong xmlcon file; LTER participants include Taylor Crockford, Julia Cox"
-2021-10-08,NA,"Tioga","ti1209","Fall",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1209/","","No","Yes","No",NA,NA,NA,"project other than NES LTER; underway SBE45 and FLR data bad"
-2021-11-04,"MVCO_449","Tioga","ti1213","Fall",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1213/","","No","Yes","No","No","Yes","?","underway SBE45 and FLR data bad"
-2021-11-10,"MVCO_450","Tioga","ti1217","Fall",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1217/","","No","Yes","No","No","Yes","?","underway SBE45 and FLR data are no good; Sosik lab logsheet has incorrect date 11/8/21; LTER participants include Bethany Fowler"
-2021-12-08,"MVCO_451","Tioga","ti1223","Winter",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1223/","","No","Yes","No","No","Yes","?",""
-2021-12-20,"MVCO_452","Tioga","ti1229","Winter",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1229/","","No","Yes","Yes","Yes","Yes","Yes","LTER participants include Emily Peacock and Julia Cox"
-2022-01-25,"MVCO_453","Tioga","ti1230","Winter",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1230/","","No","Yes","Yes","Yes","Yes","Yes","Sosik lab logsheet has incorrect date 1/24/22; LTER participants include Emily Peacock"
-2022-01-27,"MVCO_454","Tioga","ti1232","Winter",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1232/","","No","Yes","No","No","Yes","?",""
-2022-03-04,"MVCO_455","Tioga","ti1240","Spring",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1240/","","No","Yes","Yes","Yes","Yes","?","folder for adcp data appears to lack raw data"
-2022-04-05,"MVCO_456","Tioga","ti1245","Spring",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1245/","","Yes","Yes","Yes","Yes","Yes","Yes","LTER participants include Taylor Crockford"
-2022-04-26,"MVCO_457","Tioga","ti1250","Spring",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1250/","","No","Yes","No","No","Yes","?",""
-2022-05-06,"MVCO_458","Tioga","ti1252","Spring",NA,"https://dlacruisedata.whoi.edu/tioga/cruise/ti1252/","","No","Yes","No","No","Yes","?",""
+"date","event_number","ship","cruise_ID","Tioga_data_at_WHOI_DLA","Tioga_data_at_WHOI_DLA_alternate","ADCP","underway","CTD","Niskin_samples","bucket_sample","bongo_or_other_net","comment"
+2017-09-01,"MVCO_386","Tioga","ti984","https://dlacruisedata.whoi.edu/tioga/cruise/ti984/",NA,"Yes","Yes","No","No","Yes","No",NA
+2017-10-17,"MVCO_387","Tioga","ti995","https://dlacruisedata.whoi.edu/tioga/cruise/ti995/",NA,"No","Yes","Yes","Yes","Yes","No",NA
+2017-11-15,"MVCO_388","Tioga","ti1001","https://dlacruisedata.whoi.edu/tioga/cruise/ti1001/",NA,"No","Yes","Yes","Yes","Yes","No",NA
+2017-12-04,"MVCO_389","Tioga","ti1004","https://dlacruisedata.whoi.edu/tioga/cruise/ti1004/",NA,"No","Yes","Yes","Yes","Yes","No",NA
+2018-01-22,"MVCO_390","Tioga","ti1006","https://dlacruisedata.whoi.edu/tioga/cruise/ti1006/",NA,"No","Yes","Yes","Yes","Yes","No","TOI, salts, and DIC for Stanley lab"
+2018-02-27,"MVCO_391","Tioga","ti1009","https://dlacruisedata.whoi.edu/tioga/cruise/ti1009/",NA,"Yes","Yes","Yes","Yes","Yes","No","CTD data not available at WHOI DLA"
+2018-03-24,"MVCO_392","Tioga","ti1011","https://dlacruisedata.whoi.edu/tioga/cruise/ti1011/",NA,"Yes","Yes","Yes","Yes","Yes","Yes",NA
+2018-04-11,"MVCO_393","Tioga","ti1014","https://dlacruisedata.whoi.edu/tioga/cruise/ti1014/",NA,"Yes","Yes","No","No","Yes","No",NA
+2018-05-23,"MVCO_394","Discovery","NA","NA","NA","No","No","No","No","Yes","Yes","LTER participants include Sarah Glancy"
+2018-06-08,"MVCO_395","Discovery","NA","NA","NA","No","No","No","No","Yes","No",NA
+2018-06-21,"MVCO_396","Discovery","NA","NA","NA","No","No","No","No","Yes","Yes","notable crab megalopae bongo"
+2018-07-02,"MVCO_397","Discovery","NA","NA","NA","No","No","No","No","Yes","No",NA
+2018-08-10,"MVCO_398","RR","NA","NA","NA","No","No","No","No","Yes","Yes","LTER participants include Emily Peacock"
+2018-08-28,"MVCO_399","Discovery","NA","NA","NA","No","No","No","No","Yes","No","bucket sample could be questionable due to black particles on all filters except <10"
+2018-09-05,"MVCO_400","Discovery","NA","NA","NA","No","No","No","No","Yes","No","powered down the tower for major cable work"
+2018-09-17,"MVCO_401","RR","NA","NA","NA","No","No","No","No","Yes","No",NA
+2018-09-20,"MVCO_402","RR","NA","NA","NA","No","No","No","No","Yes","No",NA
+2018-10-08,"MVCO_403","Tioga","ti1021","https://dlacruisedata.whoi.edu/tioga/cruise/ti1021/",NA,"No","Yes","Yes","Yes","No","Yes","12 bottle rosette but software calling for 24 bottle so needed to double trip per niskin; LTER participants include Taylor Crockford and Sarah Glancy; notable salps bongo"
+2018-10-31,"MVCO_404","RR","NA","NA","NA","No","No","No","No","Yes","No",NA
+2018-11-20,"MVCO_405","RR","NA","NA","NA","No","No","No","No","Yes","No",NA
+2018-12-05,"MVCO_406","Tioga","ti1030","https://dlacruisedata.whoi.edu/tioga/cruise/ti1030/",NA,"Yes","Yes","Yes","Yes","No","Yes",NA
+2018-12-20,"MVCO_407","Hurricane","NA","NA","NA","No","No","No","No","Yes","No",NA
+2019-01-18,"MVCO_408","Richard Edwards","NA","NA","NA","No","No","No","No","Yes","No",NA
+2019-02-11,"MVCO_409","Richard Edwards","NA","NA","NA","No","No","No","No","Yes","No","bucket sample processing limited to IFCB"
+2019-02-20,"MVCO_410","Discovery","NA","NA","NA","No","No","No","No","Yes","No",NA
+2019-03-09,"MVCO_411","Discovery","NA","NA","NA","No","No","No","No","Yes","No",NA
+2019-03-20,"MVCO_412","Discovery","NA","NA","NA","No","No","No","No","Yes","No",NA
+2019-04-02,"MVCO_413","Discovery","NA","NA","NA","No","No","No","No","Yes","No",NA
+2019-04-25,"MVCO_414","Sea Holly","NA","NA","NA","No","No","Yes","No","Yes","Yes","CTD from Mark Baumgartner; Ring net 60-cm diam with 360-um mesh; LTER participant Sarah Glancy"
+2019-05-01,"MVCO_415","new Ryan Marine boat","NA","NA","NA","No","No","No","No","Yes","No",NA
+2019-05-07,"MVCO_416","Tioga","ti1031","https://dlacruisedata.whoi.edu/tioga/cruise/ti1031/",NA,"Yes","No","Yes","Yes","Yes","Yes","Science Verification Cruise; First science trip since major overhaul; LTER participants include Taylor Crockford, Sarah Glancy, Emily Peacock"
+2019-06-10,"MVCO_417","Tioga","ti1040","https://dlacruisedata.whoi.edu/tioga/cruise/ti1040/",NA,"Yes","Yes","Yes","Yes","Yes","Yes",NA
+2019-08-02,"MVCO_418","Tioga","ti1057","https://dlacruisedata.whoi.edu/tioga/cruise/ti1057/","http://dlacruisedata.whoi.edu/ti/cruise/ti1057/","Yes","Yes","Yes","Yes","Yes","Yes","LTER participants include Emily Peacock, Kathy Qi"
+2019-09-16,"MVCO_419","Tioga","ti1067","https://dlacruisedata.whoi.edu/tioga/cruise/ti1067/",NA,"Yes","Yes","Yes","Yes","Yes","Yes","LTER participants include Sarah Glancy, Emily Peacock; notable ctenophores in bongo"
+2019-10-25,"MVCO_420","Tioga","ti1076","https://dlacruisedata.whoi.edu/tioga/cruise/ti1076/",NA,"Yes","Yes","Yes","No","Yes","Unknown","underway no SBE48 data due to power loss; all Sosik lab parameters collected from bucket sample; Sosik lab Comments CTD water dumped"
+2019-11-14,"MVCO_421","Blackhawk","NA","NA","NA","No","No","No","No","Yes","Unknown",NA
+2019-11-21,"MVCO_422","Tioga","ti1082","https://dlacruisedata.whoi.edu/tioga/cruise/ti1082/",NA,"No","No","Yes","Yes","Yes","Yes","LTER participants include Taylor Crockford"
+2019-12-13,"MVCO_423","Tioga","ti1084","https://dlacruisedata.whoi.edu/tioga/cruise/ti1084/",NA,"Yes","Yes","No","No","Yes","No","limited Sosik lab parameters collected from bucket sample (Nut, CDOM, FCM); remaining water from bucket sample filtered through 150um mesh; Sosik lab Comments too rough; LTER participants include Jaxine Wolfe"
+2020-01-15,"MVCO_424","Tioga","ti1087","https://dlacruisedata.whoi.edu/tioga/cruise/ti1087/",NA,"Yes","Yes","Yes","Yes","Yes","Yes","deployed SeaPrism; LTER participants include Taylor Crockford"
+2020-02-25,"MVCO_425","Tioga","ti1092","https://dlacruisedata.whoi.edu/tioga/cruise/ti1092/",NA,"Yes","Yes","Yes","Yes","Yes","Unknown",NA
+2020-03-12,"MVCO_426","Tioga","ti1094","https://dlacruisedata.whoi.edu/tioga/cruise/ti1094/",NA,"Yes","Yes","No","No","Yes","Unknown",NA
+2020-05-28,"MVCO_427","Tioga","ti1103","https://dlacruisedata.whoi.edu/tioga/cruise/ti1103/",NA,"No","Yes","Yes","Yes","Yes","Unknown","Sosik lab Comments Gast and Hunter-Cevara"
+2020-06-01,"MVCO_428","Tioga","ti1104","https://dlacruisedata.whoi.edu/tioga/cruise/ti1104/","https://dlacruisedata.whoi.edu/TI/2010_to_present/all/ti1104/","Yes","Yes","Yes","Yes","Yes","Yes","Sosik lab Comments Gast"
+2020-06-29,"MVCO_429","Tioga","ti1108","https://dlacruisedata.whoi.edu/tioga/cruise/ti1108/","https://dlacruisedata.whoi.edu/TI/2010_to_present/all/ti1108/","Yes","Yes","No","No","Yes","No",NA
+2020-06-30,"NA","Tioga","ti1109","https://dlacruisedata.whoi.edu/tioga/cruise/ti1109",NA,"Yes","Yes","No","NotApplicable","NotApplicable","NotApplicable","project other than NES LTER"
+2020-07-22,"NA","Tioga","ti1113","https://dlacruisedata.whoi.edu/tioga/cruise/ti1113",NA,"Yes","Yes","No","NotApplicable","NotApplicable","NotApplicable","project other than NES LTER"
+2020-07-23,"MVCO_430","Tioga","ti1114","https://dlacruisedata.whoi.edu/tioga/cruise/ti1114/","https://dlacruisedata.whoi.edu/TI/2010_to_present/all/ti1114/","Yes","Yes","Yes","Yes","Yes","Unknown",NA
+2020-07-29,"NA","Tioga","ti1115","https://dlacruisedata.whoi.edu/tioga/cruise/ti1115",NA,"Yes","Yes","No","NotApplicable","NotApplicable","NotApplicable","project other than NES LTER"
+2020-08-12,"MVCO_431","Tioga","ti1116","https://dlacruisedata.whoi.edu/tioga/cruise/ti1116",NA,"Yes","Yes","No","No","Yes","Unknown",NA
+2020-08-20,"NA","Tioga","ti1118","https://dlacruisedata.whoi.edu/tioga/cruise/ti1118",NA,"Yes","Yes","No","NotApplicable","NotApplicable","NotApplicable","project other than NES LTER"
+2020-08-21,"MVCO_432","Tioga","ti1119","https://dlacruisedata.whoi.edu/tioga/cruise/ti1119/","https://dlacruisedata.whoi.edu/TI/2010_to_present/all/ti1119/","Yes","Yes","Yes","Yes","Yes","Unknown",NA
+2020-09-08,"NA","Tioga","ti1121","https://dlacruisedata.whoi.edu/tioga/cruise/ti1121","http://dlacruisedata.whoi.edu/tioga/cruise/ti1121","Yes","Yes","No","NotApplicable","NotApplicable","NotApplicable","project other than NES LTER"
+2020-09-24,"MVCO_433","Tioga","ti1125","https://dlacruisedata.whoi.edu/tioga/cruise/ti1125","https://dlacruisedata.whoi.edu/TI/2010_to_present/all/ti1125/","No","Yes","Yes","Yes","Yes","Yes","LTER participants included Sarah Glancy; notable ctenophores bongo"
+2020-10-15,"MVCO_434","Tioga","ti1130","https://dlacruisedata.whoi.edu/tioga/cruise/ti1130","https://dlacruisedata.whoi.edu/TI/2010_to_present/all/ti1130/","Yes","Yes","Yes","Yes","Yes","Unknown","some CTD sensors had caps left on"
+2020-10-21,"NA","Tioga","ti1132","https://dlacruisedata.whoi.edu/tioga/cruise/ti1132","http://dlacruisedata.whoi.edu/tioga/cruise/ti1132","No","Yes","No","NotApplicable","NotApplicable","NotApplicable","project other than NES LTER"
+2020-11-19,"MVCO_435","Tioga","ti1136","https://dlacruisedata.whoi.edu/tioga/cruise/ti1136","https://dlacruisedata.whoi.edu/TI/2010_to_present/all/ti1136/","Yes","Yes","No","No","Yes","Unknown","although there is a folder for CTD data the wire termination was damaged; LTER participants Emily Peacock and Alexi Shalapyanok"
+2020-12-11,"MVCO_436","Tioga","ti1139","https://dlacruisedata.whoi.edu/tioga/cruise/ti1139","https://dlacruisedata.whoi.edu/TI/2010_to_present/all/ti1139/","No","Yes","Yes","Yes","Yes","Unknown",NA
+2021-04-06,"MVCO_437","Tioga","ti1153","https://dlacruisedata.whoi.edu/tioga/cruise/ti1153","https://dlacruisedata.whoi.edu/TI/2010_to_present/all/ti1153/","No","Yes","Yes","Yes","Yes","Yes","LTER participants include Sarah Glancy"
+2021-04-20,"MVCO_438","Tioga","ti1159","https://dlacruisedata.whoi.edu/tioga/cruise/ti1159/","?","No","Yes","No","No","Yes","Unknown",NA
+2021-05-13,"MVCO_439","Tioga","ti1164","https://dlacruisedata.whoi.edu/tioga/cruise/ti1164/","?","Yes","Yes","No","No","Yes","No",NA
+2021-05-14,"MVCO_440","Tioga","ti1165","https://dlacruisedata.whoi.edu/tioga/cruise/ti1165/","?","No","Yes","No","No","Yes","No",NA
+2021-06-30,"MVCO_441","Tioga","ti1176","https://dlacruisedata.whoi.edu/tioga/cruise/ti1176/",NA,"No","Yes","No","No","Yes","Unknown","LTER participants include Emily Peacock"
+2021-07-15,"MVCO_442","Tioga","ti1183","https://dlacruisedata.whoi.edu/tioga/cruise/ti1183/",NA,"No","Yes","No","No","Yes","Unknown",NA
+2021-07-29,"MVCO_443","Tioga","ti1187","https://dlacruisedata.whoi.edu/tioga/cruise/ti1187/",NA,"No","Yes","Yes","Yes","Yes","Unknown","LTER participants include Emily Peacock"
+2021-08-13,"MVCO_444","Tioga","ti1194","https://dlacruisedata.whoi.edu/tioga/cruise/ti1194/",NA,"No","Yes","No","No","Yes","Unknown",NA
+2021-08-16,"MVCO_445","Tioga","ti1195","https://dlacruisedata.whoi.edu/tioga/cruise/ti1195/",NA,"No","Yes","No","No","Yes","Unknown","CTD broken"
+2021-08-31,"MVCO_446","Tioga","ti1199","https://dlacruisedata.whoi.edu/tioga/cruise/ti1199/",NA,"No","Yes","No","No","Yes","Unknown",NA
+2021-09-01,"NA","Tioga","ti1200","https://dlacruisedata.whoi.edu/tioga/cruise/ti1200/",NA,"Yes","Yes","No","NotApplicable","NotApplicable","NotApplicable","project other than NES LTER"
+2021-09-14,"MVCO_447","Tioga","ti1202","https://dlacruisedata.whoi.edu/tioga/cruise/ti1202/",NA,"No","Yes","No","No","Yes","Unknown","No time for CTD"
+2021-09-29,"MVCO_448","Tioga","ti1206","https://dlacruisedata.whoi.edu/tioga/cruise/ti1206/",NA,"No","Yes","Yes","Yes","Yes","Yes","CTD data collected with wrong xmlcon file; LTER participants include Taylor Crockford, Julia Cox"
+2021-10-08,"NA","Tioga","ti1209","https://dlacruisedata.whoi.edu/tioga/cruise/ti1209/",NA,"No","Yes","No","NotApplicable","NotApplicable","NotApplicable","project other than NES LTER; underway SBE45 and FLR data bad"
+2021-11-04,"MVCO_449","Tioga","ti1213","https://dlacruisedata.whoi.edu/tioga/cruise/ti1213/",NA,"No","Yes","No","No","Yes","Unknown","underway SBE45 and FLR data bad"
+2021-11-10,"MVCO_450","Tioga","ti1217","https://dlacruisedata.whoi.edu/tioga/cruise/ti1217/",NA,"No","Yes","No","No","Yes","Unknown","underway SBE45 and FLR data are no good; Sosik lab logsheet has incorrect date 11/8/21; LTER participants include Bethany Fowler"
+2021-12-08,"MVCO_451","Tioga","ti1223","https://dlacruisedata.whoi.edu/tioga/cruise/ti1223/",NA,"No","Yes","No","No","Yes","Unknown",NA
+2021-12-20,"MVCO_452","Tioga","ti1229","https://dlacruisedata.whoi.edu/tioga/cruise/ti1229/",NA,"No","Yes","Yes","Yes","Yes","Yes","LTER participants include Emily Peacock and Julia Cox"
+2022-01-25,"MVCO_453","Tioga","ti1230","https://dlacruisedata.whoi.edu/tioga/cruise/ti1230/",NA,"No","Yes","Yes","Yes","Yes","Yes","Sosik lab logsheet has incorrect date 1/24/22; LTER participants include Emily Peacock"
+2022-01-27,"MVCO_454","Tioga","ti1232","https://dlacruisedata.whoi.edu/tioga/cruise/ti1232/",NA,"No","Yes","No","No","Yes","Unknown",NA
+2022-03-04,"MVCO_455","Tioga","ti1240","https://dlacruisedata.whoi.edu/tioga/cruise/ti1240/",NA,"No","Yes","Yes","Yes","Yes","Unknown","folder for adcp data appears to lack raw data"
+2022-04-05,"MVCO_456","Tioga","ti1245","https://dlacruisedata.whoi.edu/tioga/cruise/ti1245/",NA,"Yes","Yes","Yes","Yes","Yes","Yes","LTER participants include Taylor Crockford"
+2022-04-26,"MVCO_457","Tioga","ti1250","https://dlacruisedata.whoi.edu/tioga/cruise/ti1250/",NA,"No","Yes","No","No","Yes","Unknown",NA
+2022-05-06,"MVCO_458","Tioga","ti1252","https://dlacruisedata.whoi.edu/tioga/cruise/ti1252/",NA,"No","Yes","No","No","Yes","Unknown",NA
