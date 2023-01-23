@@ -1,7 +1,7 @@
 ---
 title: "MVCO cruise list packaging workflow"
 author: "Kate Morkeski"
-date: "2023-01-13"
+date: "2023-01-23"
 output: html_notebook
 ---
 
@@ -25,7 +25,7 @@ Read data table
 
 ```{r}
 
-events <- read_excel(here('List of MVCO cruises for NES-LTER project 20230118.xlsx'), sheet = 1, skip = 6)
+events <- read_excel(here('List of MVCO cruises for NES-LTER project 20230123.xlsx'), sheet = 1, skip = 6)
 
 
 ```
@@ -36,17 +36,15 @@ Update and write data table
 
 events$date = ymd(events$date)
 
-# remove rows after 2022-05-06 and columns for MVCO event number and Google Drive links
-events <- events[-c(82:86),-c(2,6)]
-
-# update new Ryan Marine boat?
+# remove rows after 2022-05-06 and columns for MVCO event number, Google Drive links, and alternate DLA links
+events <- events[-c(82:99),-c(2,6, 8)]
 
 # rename cols to lowercase
-colnames(events)[11] <- "bucket_sample"
-colnames(events)[12] <- "bongo_or_other_net"
+colnames(events)[10] <- "bucket_sample"
+colnames(events)[11] <- "bongo_or_other_net"
 
 # rename Notes to comment
-colnames(events)[13] <- "comment"
+colnames(events)[12] <- "comment"
 
 write.csv(events, 'nes-lter-events-mvco.csv', row.names = FALSE)
 
@@ -57,9 +55,11 @@ EMLassemblyline
 
 ```{r}
 
-excel_to_template(here('List of MVCO cruises for NES-LTER project 20230118'), 'nes-lter-events-mvco', rights='CC0')
+excel_to_template(here('List of MVCO cruises for NES-LTER project 20230123'), 'nes-lter-events-mvco', rights='CC0')
 
 ```
+
+
 Generate the package and insert the parent project node into the resulting EML
 
 ```{r}

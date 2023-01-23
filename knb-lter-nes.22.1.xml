@@ -42,7 +42,7 @@
       <userId directory="https://orcid.org">https://orcid.org/0000-0002-2903-5851</userId>
       <role>metadataProvider</role>
     </associatedParty>
-    <pubDate>2023-01-19</pubDate>
+    <pubDate>2023-01-23</pubDate>
     <abstract>
       <para>This package provides a table of day cruises to the Martha's Vineyard Coastal Observatory for Northeast U.S. Shelf Long-Term Ecological Research (NES-LTER). The event number for each cruise is provided, along with date, vessel name, cruise identifer where applicable, link to data location, and checklist of six data types. &#13;
 </para>
@@ -215,8 +215,8 @@
       <entityDescription>List of cruises to MVCO and data types collected</entityDescription>
       <physical>
         <objectName>nes-lter-events-mvco.csv</objectName>
-        <size unit="bytes">13468</size>
-        <authentication method="MD5">327ea436c73c2720daffff372614358c</authentication>
+        <size unit="bytes">12440</size>
+        <authentication method="MD5">c3aa0781935736b1b03686b54963cde0</authentication>
         <dataFormat>
           <textFormat>
             <numHeaderLines>1</numHeaderLines>
@@ -303,24 +303,6 @@
               <nonNumericDomain>
                 <textDomain>
                   <definition>Link to data location</definition>
-                </textDomain>
-              </nonNumericDomain>
-            </nominal>
-          </measurementScale>
-          <missingValueCode>
-            <code>NA</code>
-            <codeExplanation>Missing value</codeExplanation>
-          </missingValueCode>
-        </attribute>
-        <attribute>
-          <attributeName>Tioga_data_at_WHOI_DLA_alternate</attributeName>
-          <attributeDefinition>Alternate link to data location</attributeDefinition>
-          <storageType>string</storageType>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain>
-                <textDomain>
-                  <definition>Alternate link to data location</definition>
                 </textDomain>
               </nonNumericDomain>
             </nominal>
