@@ -1,7 +1,7 @@
 ---
 title: "MVCO cruise list packaging workflow"
 author: "Kate Morkeski"
-date: "2023-01-23"
+date: "2023-01-24"
 output: html_notebook
 ---
 
@@ -25,7 +25,7 @@ Read data table
 
 ```{r}
 
-events <- read_excel(here('List of MVCO cruises for NES-LTER project 20230123.xlsx'), sheet = 1, skip = 6)
+events <- read_excel(here('List of MVCO cruises for NES-LTER project 20230124.xlsx'), sheet = 1, skip = 6)
 
 
 ```
@@ -55,7 +55,7 @@ EMLassemblyline
 
 ```{r}
 
-excel_to_template(here('List of MVCO cruises for NES-LTER project 20230123'), 'nes-lter-events-mvco', rights='CC0')
+excel_to_template(here('List of MVCO cruises for NES-LTER project 20230124'), 'nes-lter-events-mvco', rights='CC0')
 
 ```
 

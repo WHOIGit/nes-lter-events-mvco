@@ -22,6 +22,34 @@
       <electronicMailAddress>hsosik@whoi.edu</electronicMailAddress>
       <userId directory="https://orcid.org">https://orcid.org/0000-0002-4591-2842</userId>
     </creator>
+    <creator>
+      <individualName>
+        <givenName>E. Taylor</givenName>
+        <surName>Crockford</surName>
+      </individualName>
+      <organizationName>Northeast U.S. Shelf LTER</organizationName>
+      <electronicMailAddress>ecrockford@whoi.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-2122-0462</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Emily</givenName>
+        <surName>Peacock</surName>
+      </individualName>
+      <organizationName>Northeast U.S. Shelf LTER</organizationName>
+      <electronicMailAddress>epeacock@whoi.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-0194-7282</userId>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Sarah</givenName>
+        <givenName>G</givenName>
+        <surName>Glancy</surName>
+      </individualName>
+      <organizationName>Northeast U.S. Shelf LTER</organizationName>
+      <electronicMailAddress>sglancy@whoi.edu</electronicMailAddress>
+      <role>Technician</role>
+    </associatedParty>
     <associatedParty>
       <individualName>
         <givenName>Joe</givenName>
@@ -30,7 +58,7 @@
       <organizationName>Northeast U.S. Shelf LTER</organizationName>
       <electronicMailAddress>jfutrelle@whoi.edu</electronicMailAddress>
       <userId directory="https://orcid.org">https://orcid.org/0000-0003-4537-5853</userId>
-      <role>softwareDeveloper</role>
+      <role>SoftwareDeveloper</role>
     </associatedParty>
     <associatedParty>
       <individualName>
@@ -40,9 +68,9 @@
       <organizationName>Northeast U.S. Shelf LTER</organizationName>
       <electronicMailAddress>kmorkeski@whoi.edu</electronicMailAddress>
       <userId directory="https://orcid.org">https://orcid.org/0000-0002-2903-5851</userId>
-      <role>metadataProvider</role>
+      <role>MetadataProvider</role>
     </associatedParty>
-    <pubDate>2023-01-23</pubDate>
+    <pubDate>2023-01-24</pubDate>
     <abstract>
       <para>This package provides a table of day cruises to the Martha's Vineyard Coastal Observatory for Northeast U.S. Shelf Long-Term Ecological Research (NES-LTER). The event number for each cruise is provided, along with date, vessel name, cruise identifer where applicable, link to data location, and checklist of six data types. &#13;
 </para>
@@ -108,6 +136,8 @@
         <description>
           <para>About Martha's Vineyard Coastal Observatory</para>
           <para>The Martha's Vineyard Coastal Observatory (MVCO) Air-Sea Interaction Tower (ASIT) is located at 41.325 N, 70.567 W. See https://mvco.whoi.edu/about/ for more site information. Discrete samples were collected in the vicinity of the tower.</para>
+          <para>Quality assurance and data package assembly</para>
+          <para>The event log for day cruises to MVCO is compiled in a spreadsheet with validation for manual data entry. Data package assembly with metadata templates was completed in R, with documentation available at https://github.com/WHOIGit/nes-lter-events-mvco.</para>
         </description>
       </methodStep>
     </methods>
