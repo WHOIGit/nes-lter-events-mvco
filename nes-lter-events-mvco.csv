@@ -3,7 +3,7 @@
 2017-10-17,"MVCO_387","Tioga","ti995","https://dlacruisedata.whoi.edu/tioga/cruise/ti995/","No","Yes","Yes","Yes","Yes","No",NA
 2017-11-15,"MVCO_388","Tioga","ti1001","https://dlacruisedata.whoi.edu/tioga/cruise/ti1001/","No","Yes","Yes","Yes","Yes","No",NA
 2017-12-04,"MVCO_389","Tioga","ti1004","https://dlacruisedata.whoi.edu/tioga/cruise/ti1004/","No","Yes","Yes","Yes","Yes","No",NA
-2018-01-22,"MVCO_390","Tioga","ti1006","https://dlacruisedata.whoi.edu/tioga/cruise/ti1006/","No","Yes","Yes","Yes","Yes","No","TOI, salts, and DIC for Stanley lab"
+2018-01-22,"MVCO_390","Tioga","ti1006","https://dlacruisedata.whoi.edu/tioga/cruise/ti1006/","No","Yes","Yes","Yes","Yes","No","TOI and salts and DIC for Stanley lab"
 2018-02-27,"MVCO_391","Tioga","ti1009","https://dlacruisedata.whoi.edu/tioga/cruise/ti1009/","Yes","Yes","Yes","Yes","Yes","No","CTD data not available at WHOI DLA"
 2018-03-24,"MVCO_392","Tioga","ti1011","https://dlacruisedata.whoi.edu/tioga/cruise/ti1011/","Yes","Yes","Yes","Yes","Yes","Yes",NA
 2018-04-11,"MVCO_393","Tioga","ti1014","https://dlacruisedata.whoi.edu/tioga/cruise/ti1014/","Yes","Yes","No","No","Yes","No",NA
@@ -29,14 +29,14 @@
 2019-04-02,"MVCO_413","Discovery","NA","NA","No","No","No","No","Yes","No",NA
 2019-04-25,"MVCO_414","Sea Holly","NA","NA","No","No","Yes","No","Yes","Yes","CTD from Mark Baumgartner; Ring net 60-cm diam with 360-um mesh; LTER participant Sarah Glancy"
 2019-05-01,"MVCO_415","Blackhawk","NA","NA","No","No","No","No","Yes","No",NA
-2019-05-07,"MVCO_416","Tioga","ti1031","https://dlacruisedata.whoi.edu/tioga/cruise/ti1031/","Yes","No","Yes","Yes","Yes","Yes","Science Verification Cruise; First science trip since major overhaul; LTER participants include Taylor Crockford, Sarah Glancy, Emily Peacock"
+2019-05-07,"MVCO_416","Tioga","ti1031","https://dlacruisedata.whoi.edu/tioga/cruise/ti1031/","Yes","No","Yes","Yes","Yes","Yes","Science Verification Cruise; First science trip since major overhaul; LTER participants include Taylor Crockford and Sarah Glancy and Emily Peacock"
 2019-06-10,"MVCO_417","Tioga","ti1040","https://dlacruisedata.whoi.edu/tioga/cruise/ti1040/","Yes","Yes","Yes","Yes","Yes","Yes",NA
-2019-08-02,"MVCO_418","Tioga","ti1057","https://dlacruisedata.whoi.edu/tioga/cruise/ti1057/","Yes","Yes","Yes","Yes","Yes","Yes","LTER participants include Emily Peacock, Kathy Qi"
-2019-09-16,"MVCO_419","Tioga","ti1067","https://dlacruisedata.whoi.edu/tioga/cruise/ti1067/","Yes","Yes","Yes","Yes","Yes","Yes","LTER participants include Sarah Glancy, Emily Peacock; notable ctenophores in bongo"
+2019-08-02,"MVCO_418","Tioga","ti1057","https://dlacruisedata.whoi.edu/tioga/cruise/ti1057/","Yes","Yes","Yes","Yes","Yes","Yes","LTER participants include Emily Peacock and Kathy Qi"
+2019-09-16,"MVCO_419","Tioga","ti1067","https://dlacruisedata.whoi.edu/tioga/cruise/ti1067/","Yes","Yes","Yes","Yes","Yes","Yes","LTER participants include Sarah Glancy and Emily Peacock; notable ctenophores in bongo"
 2019-10-25,"MVCO_420","Tioga","ti1076","https://dlacruisedata.whoi.edu/tioga/cruise/ti1076/","Yes","Yes","Yes","No","Yes","Unknown","underway no SBE48 data due to power loss; all Sosik lab parameters collected from bucket sample; Sosik lab Comments CTD water dumped"
 2019-11-14,"MVCO_421","Blackhawk","NA","NA","No","No","No","No","Yes","Unknown",NA
 2019-11-21,"MVCO_422","Tioga","ti1082","https://dlacruisedata.whoi.edu/tioga/cruise/ti1082/","No","No","Yes","Yes","Yes","Yes","LTER participants include Taylor Crockford"
-2019-12-13,"MVCO_423","Tioga","ti1084","https://dlacruisedata.whoi.edu/tioga/cruise/ti1084/","Yes","Yes","No","No","Yes","No","limited Sosik lab parameters collected from bucket sample (Nut, CDOM, FCM); remaining water from bucket sample filtered through 150um mesh; Sosik lab Comments too rough; LTER participants include Jaxine Wolfe"
+2019-12-13,"MVCO_423","Tioga","ti1084","https://dlacruisedata.whoi.edu/tioga/cruise/ti1084/","Yes","Yes","No","No","Yes","No","limited Sosik lab parameters collected from bucket sample (Nut and CDOM and FCM); remaining water from bucket sample filtered through 150um mesh; Sosik lab Comments too rough; LTER participants include Jaxine Wolfe"
 2020-01-15,"MVCO_424","Tioga","ti1087","https://dlacruisedata.whoi.edu/tioga/cruise/ti1087/","Yes","Yes","Yes","Yes","Yes","Yes","deployed SeaPrism; LTER participants include Taylor Crockford"
 2020-02-25,"MVCO_425","Tioga","ti1092","https://dlacruisedata.whoi.edu/tioga/cruise/ti1092/","Yes","Yes","Yes","Yes","Yes","Unknown",NA
 2020-03-12,"MVCO_426","Tioga","ti1094","https://dlacruisedata.whoi.edu/tioga/cruise/ti1094/","Yes","Yes","No","No","Yes","Unknown",NA
@@ -68,7 +68,7 @@
 2021-08-31,"MVCO_446","Tioga","ti1199","https://dlacruisedata.whoi.edu/tioga/cruise/ti1199/","No","Yes","No","No","Yes","Unknown",NA
 2021-09-01,"NA","Tioga","ti1200","https://dlacruisedata.whoi.edu/tioga/cruise/ti1200/","Yes","Yes","No","NotApplicable","NotApplicable","NotApplicable","project other than NES LTER"
 2021-09-14,"MVCO_447","Tioga","ti1202","https://dlacruisedata.whoi.edu/tioga/cruise/ti1202/","No","Yes","No","No","Yes","Unknown","No time for CTD"
-2021-09-29,"MVCO_448","Tioga","ti1206","https://dlacruisedata.whoi.edu/tioga/cruise/ti1206/","No","Yes","Yes","Yes","Yes","Yes","CTD data collected with wrong xmlcon file; LTER participants include Taylor Crockford, Julia Cox"
+2021-09-29,"MVCO_448","Tioga","ti1206","https://dlacruisedata.whoi.edu/tioga/cruise/ti1206/","No","Yes","Yes","Yes","Yes","Yes","CTD data collected with wrong xmlcon file; LTER participants include Taylor Crockford and Julia Cox"
 2021-10-08,"NA","Tioga","ti1209","https://dlacruisedata.whoi.edu/tioga/cruise/ti1209/","No","Yes","No","NotApplicable","NotApplicable","NotApplicable","project other than NES LTER; underway SBE45 and FLR data bad"
 2021-11-04,"MVCO_449","Tioga","ti1213","https://dlacruisedata.whoi.edu/tioga/cruise/ti1213/","No","Yes","No","No","Yes","Unknown","underway SBE45 and FLR data bad"
 2021-11-10,"MVCO_450","Tioga","ti1217","https://dlacruisedata.whoi.edu/tioga/cruise/ti1217/","No","Yes","No","No","Yes","Unknown","underway SBE45 and FLR data are no good; Sosik lab logsheet has incorrect date 11/8/21; LTER participants include Bethany Fowler"

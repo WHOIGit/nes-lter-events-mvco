@@ -11,7 +11,7 @@
     </allow>
   </access>
   <dataset>
-    <title>Event logs from Northeast U.S. Shelf Long Term Ecological Research (NES-LTER) cruises to the Martha's Vineyard Coastal Observatory ongoing since 2017</title>
+    <title>Event logs from Northeast U.S. Shelf Long Term Ecological Research (NES-LTER) cruises to the Martha's Vineyard Coastal Observatory (MVCO) ongoing since 2017</title>
     <creator>
       <individualName>
         <givenName>Heidi</givenName>
@@ -21,6 +21,16 @@
       <organizationName>Northeast U.S. Shelf LTER</organizationName>
       <electronicMailAddress>hsosik@whoi.edu</electronicMailAddress>
       <userId directory="https://orcid.org">https://orcid.org/0000-0002-4591-2842</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Joel</givenName>
+        <givenName>K</givenName>
+        <surName>Llopiz</surName>
+      </individualName>
+      <organizationName>Northeast U.S. Shelf LTER</organizationName>
+      <electronicMailAddress>jllopiz@whoi.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-7584-7471</userId>
     </creator>
     <creator>
       <individualName>
@@ -58,7 +68,7 @@
       <organizationName>Northeast U.S. Shelf LTER</organizationName>
       <electronicMailAddress>jfutrelle@whoi.edu</electronicMailAddress>
       <userId directory="https://orcid.org">https://orcid.org/0000-0003-4537-5853</userId>
-      <role>SoftwareDeveloper</role>
+      <role>Software Developer</role>
     </associatedParty>
     <associatedParty>
       <individualName>
@@ -68,9 +78,9 @@
       <organizationName>Northeast U.S. Shelf LTER</organizationName>
       <electronicMailAddress>kmorkeski@whoi.edu</electronicMailAddress>
       <userId directory="https://orcid.org">https://orcid.org/0000-0002-2903-5851</userId>
-      <role>MetadataProvider</role>
+      <role>Metadata Provider</role>
     </associatedParty>
-    <pubDate>2023-01-24</pubDate>
+    <pubDate>2023-02-02</pubDate>
     <abstract>
       <para>This package provides a table of day cruises to the Martha's Vineyard Coastal Observatory for Northeast U.S. Shelf Long-Term Ecological Research (NES-LTER). The event number for each cruise is provided, along with date, vessel name, cruise identifer where applicable, link to data location, and checklist of six data types. &#13;
 </para>
@@ -86,12 +96,20 @@
     <keywordSet>
       <keyword>CTD</keyword>
       <keyword>events</keyword>
+      <keyword>marine</keyword>
+      <keyword>oceanography</keyword>
       <keyword>scientific activities</keyword>
+      <keyword>zooplankton</keyword>
       <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
     </keywordSet>
     <keywordSet>
       <keyword>Bongo net</keyword>
+      <keyword>ring net</keyword>
       <keywordThesaurus>SeaVoX Device Catalogue</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Single net or net pair oblique tow</keyword>
+      <keywordThesaurus>BODC Sampling net gear deployment vocabulary</keywordThesaurus>
     </keywordSet>
     <keywordSet>
       <keyword>Acoustic Doppler Current Profiler</keyword>
@@ -106,8 +124,8 @@
       <geographicCoverage>
         <geographicDescription>Martha's Vineyard Coastal Observatory</geographicDescription>
         <boundingCoordinates>
-          <westBoundingCoordinate>70.567</westBoundingCoordinate>
-          <eastBoundingCoordinate>70.567</eastBoundingCoordinate>
+          <westBoundingCoordinate>-70.567</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.567</eastBoundingCoordinate>
           <northBoundingCoordinate>41.325</northBoundingCoordinate>
           <southBoundingCoordinate>41.325</southBoundingCoordinate>
         </boundingCoordinates>
@@ -135,9 +153,14 @@
       <methodStep>
         <description>
           <para>About Martha's Vineyard Coastal Observatory</para>
-          <para>The Martha's Vineyard Coastal Observatory (MVCO) Air-Sea Interaction Tower (ASIT) is located at 41.325 N, 70.567 W. See https://mvco.whoi.edu/about/ for more site information. Discrete samples were collected in the vicinity of the tower.</para>
-          <para>Quality assurance and data package assembly</para>
-          <para>The event log for day cruises to MVCO is compiled in a spreadsheet with validation for manual data entry. Data package assembly with metadata templates was completed in R, with documentation available at https://github.com/WHOIGit/nes-lter-events-mvco.</para>
+          <para>The Martha's Vineyard Coastal Observatory (MVCO) Air-Sea Interaction Tower (ASIT) is located at 41.325 N, 70.567 W. See https://mvco.whoi.edu/about/ for more site information. Discrete samples are collected in the vicinity of the tower.</para>
+          <para>CTD Rosette Bottle and Bucket Sampling</para>
+          <para>Discrete water samples are collected at ASIT from the water column at multiple depths using Niskin bottles on a CTD rosette system and at the surface with a bucket. Some MVCO events are opportunistically collected on non-NES-LTER cruises, in which case, typically only a surface bucket sample is collected. Water analysis typically includes chlorophyll a, particulate absorption, colored dissolved organic matter, HPLC, particulate organic carbon and nitrogen, nutrients, and flow cytometry at all depths, and genetic sequencing at surface only.</para>
+          <para>Bongo Net Tow Zooplankton Collection</para>
+          <para>A single oblique tow (down then up once through the water column) is conducted in the vicinity of ASIT with a bongo net, both sides of which are 61 cm in diameter and 3.2 m long. One net has 335 micron mesh, the other has 150 micron mesh, and they have similar porosity values, 45% and 46% respectively. A General Oceanics mechanical flowmeter is attached in the center of each net mouth to calculate volume filtered on a per-net basis. Attached to the bongo frame is a temperature-depth recorder (Star-Oddi DST centi-TD or Reefnet Sensus Ultra TDR) for later determining the depth and trajectory fished. During the tows, net depth is estimated using wire angle and wire out with a target net depth of 5 m off the bottom. Ship speed through the water is 1.5-2.0 kts into the current with a winch pay-out and haul-in speed of approximately 10 m/min (the slowest winch speed possible to operate in the shallow depths near MVCO). Samples are typically processed aboard the vessel with the whole 335 micron sample preserved in 5% buffered formalin-seawater and the whole 150 micron sample preserved in 95% ethanol.</para>
+          <para>Ship Provided Data</para>
+          <para>Underway seawater data are sometimes collected on Tioga cruises and include surface seawater metrics such as temperature, salinity, and fluorometry. Underway ADCP data are sometimes collected. When they are, underway data collection starts at the WHOI dock and continues for the duration of the day cruise. When CTD rosette casts are performed, water column CTD profiles were collected for temperature, salinity, fluorometry, and sometimes PAR, beam transmission, and dissolved oxygen.</para>
+          <para/>
         </description>
       </methodStep>
     </methods>
@@ -245,8 +268,8 @@
       <entityDescription>List of cruises to MVCO and data types collected</entityDescription>
       <physical>
         <objectName>nes-lter-events-mvco.csv</objectName>
-        <size unit="bytes">12440</size>
-        <authentication method="MD5">c3aa0781935736b1b03686b54963cde0</authentication>
+        <size unit="bytes">12463</size>
+        <authentication method="MD5">f1ba0ab14eb4e9443feb5fa2e86412ba</authentication>
         <dataFormat>
           <textFormat>
             <numHeaderLines>1</numHeaderLines>

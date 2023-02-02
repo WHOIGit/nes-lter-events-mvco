@@ -1,7 +1,7 @@
 ---
 title: "MVCO cruise list packaging workflow"
 author: "Kate Morkeski"
-date: "2023-01-24"
+date: "2023-02-02"
 output: html_notebook
 ---
 
@@ -25,8 +25,7 @@ Read data table
 
 ```{r}
 
-events <- read_excel(here('List of MVCO cruises for NES-LTER project 20230124.xlsx'), sheet = 1, skip = 6)
-
+events <- read_excel(here('List of MVCO cruises for NES-LTER project 20230202.xlsx'), sheet = 1, skip = 6)
 
 ```
 
@@ -46,6 +45,11 @@ colnames(events)[11] <- "bongo_or_other_net"
 # rename Notes to comment
 colnames(events)[12] <- "comment"
 
+# change commas to the word and
+# tried placing quotes around the comment instead but produced error on evaluation
+events$comment <-gsub(",", " and", events$comment)
+events$comment <-gsub(" and and", " and", events$comment)
+
 write.csv(events, 'nes-lter-events-mvco.csv', row.names = FALSE)
 
 ```
@@ -55,7 +59,7 @@ EMLassemblyline
 
 ```{r}
 
-excel_to_template(here('List of MVCO cruises for NES-LTER project 20230124'), 'nes-lter-events-mvco', rights='CC0')
+excel_to_template(here('List of MVCO cruises for NES-LTER project 20230202'), 'nes-lter-events-mvco', rights='CC0')
 
 ```
 
@@ -67,13 +71,13 @@ Generate the package and insert the parent project node into the resulting EML
 pkg_id <- 'knb-lter-nes.22.1'
 
 make_eml(here(),
-         dataset.title= "Event logs from Northeast U.S. Shelf Long Term Ecological Research (NES-LTER) cruises to the Martha's Vineyard Coastal Observatory ongoing since 2017",
+         dataset.title= "Event logs from Northeast U.S. Shelf Long Term Ecological Research (NES-LTER) cruises to the Martha's Vineyard Coastal Observatory (MVCO) ongoing since 2017",
          data.table='nes-lter-events-mvco.csv',
          data.table.description='List of cruises to MVCO and data types collected',
          data.table.name = 'nes-lter-events-mvco',
          temporal.coverage = temporal_coverage(events$date),
          geographic.description = "Martha's Vineyard Coastal Observatory",
-         geographic.coordinates = geographic_coordinates(41.325, 70.567),
+         geographic.coordinates = geographic_coordinates(41.325, -70.567),
          maintenance.description = "ongoing",
          user.id = "NES",
          user.domain = "LTER",
