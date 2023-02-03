@@ -80,10 +80,10 @@
       <userId directory="https://orcid.org">https://orcid.org/0000-0002-2903-5851</userId>
       <role>Metadata Provider</role>
     </associatedParty>
-    <pubDate>2023-02-02</pubDate>
+    <pubDate>2023-02-03</pubDate>
     <abstract>
-      <para>This package provides a table of day cruises to the Martha's Vineyard Coastal Observatory for Northeast U.S. Shelf Long-Term Ecological Research (NES-LTER). The event number for each cruise is provided, along with date, vessel name, cruise identifer where applicable, link to data location, and checklist of six data types. &#13;
-</para>
+      <para>This package provides a table of day cruises to the Martha's Vineyard Coastal Observatory for Northeast U.S. Shelf Long-Term Ecological Research (NES-LTER). Sampling frequency is approximately monthly, with NES-LTER sampling ongoing since 2017. Cruises involve collection of water column bottle samples, surface bucket samples, and zooplankton net tow samples, as well as ship provided data. The event number for each cruise is provided, along with date, vessel name, cruise identifier where applicable, link to data location, and checklist of six data types.</para>
+      <para/>
     </abstract>
     <keywordSet>
       <keyword>Disturbance</keyword>
