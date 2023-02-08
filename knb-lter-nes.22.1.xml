@@ -80,9 +80,9 @@
       <userId directory="https://orcid.org">https://orcid.org/0000-0002-2903-5851</userId>
       <role>Metadata Provider</role>
     </associatedParty>
-    <pubDate>2023-02-03</pubDate>
+    <pubDate>2023-02-07</pubDate>
     <abstract>
-      <para>This package provides a table of day cruises to the Martha's Vineyard Coastal Observatory for Northeast U.S. Shelf Long-Term Ecological Research (NES-LTER). Sampling frequency is approximately monthly, with NES-LTER sampling ongoing since 2017. Cruises involve collection of water column bottle samples, surface bucket samples, and zooplankton net tow samples, as well as ship provided data. The event number for each cruise is provided, along with date, vessel name, cruise identifier where applicable, link to data location, and checklist of six data types.</para>
+      <para>This package provides a table of day cruises to the Martha's Vineyard Coastal Observatory for Northeast U.S. Shelf Long-Term Ecological Research (NES-LTER). Sampling frequency is approximately monthly, with NES-LTER sampling ongoing since 2017. Cruises involve collection of water column bottle samples, surface bucket samples, and zooplankton net tow samples, as well as ship provided data. The event number for each cruise is provided, along with date, vessel name, cruise identifier where applicable, link to data location (for CTD, ADCP, and other underway data), and checklist of six data types.</para>
       <para/>
     </abstract>
     <keywordSet>
@@ -160,7 +160,10 @@
           <para>A single oblique tow (down then up once through the water column) is conducted in the vicinity of ASIT with a bongo net, both sides of which are 61 cm in diameter and 3.2 m long. One net has 335 micron mesh, the other has 150 micron mesh, and they have similar porosity values, 45% and 46% respectively. A General Oceanics mechanical flowmeter is attached in the center of each net mouth to calculate volume filtered on a per-net basis. Attached to the bongo frame is a temperature-depth recorder (Star-Oddi DST centi-TD or Reefnet Sensus Ultra TDR) for later determining the depth and trajectory fished. During the tows, net depth is estimated using wire angle and wire out with a target net depth of 5 m off the bottom. Ship speed through the water is 1.5-2.0 kts into the current with a winch pay-out and haul-in speed of approximately 10 m/min (the slowest winch speed possible to operate in the shallow depths near MVCO). Samples are typically processed aboard the vessel with the whole 335 micron sample preserved in 5% buffered formalin-seawater and the whole 150 micron sample preserved in 95% ethanol.</para>
           <para>Ship Provided Data</para>
           <para>Underway seawater data are sometimes collected on Tioga cruises and include surface seawater metrics such as temperature, salinity, and fluorometry. Underway ADCP data are sometimes collected. When they are, underway data collection starts at the WHOI dock and continues for the duration of the day cruise. When CTD rosette casts are performed, water column CTD profiles were collected for temperature, salinity, fluorometry, and sometimes PAR, beam transmission, and dissolved oxygen.</para>
-          <para/>
+          <para>Quality assurance and data package assembly</para>
+          <para>The table of day cruises to MVCO is compiled in a spreadsheet with validation for manual data entry. Data package assembly with metadata templates is completed in R, with documentation available at https://github.com/WHOIGit/nes-lter-events-mvco.</para>
+          <para>&#13;
+</para>
         </description>
       </methodStep>
     </methods>

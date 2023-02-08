@@ -14,3 +14,8 @@ Ship Provided Data
 
 Underway seawater data are sometimes collected on Tioga cruises and include surface seawater metrics such as temperature, salinity, and fluorometry. Underway ADCP data are sometimes collected. When they are, underway data collection starts at the WHOI dock and continues for the duration of the day cruise. When CTD rosette casts are performed, water column CTD profiles were collected for temperature, salinity, fluorometry, and sometimes PAR, beam transmission, and dissolved oxygen.
 
+Quality assurance and data package assembly
+
+The table of day cruises to MVCO is compiled in a spreadsheet with validation for manual data entry. Data package assembly with metadata templates is completed in R, with documentation available at https://github.com/WHOIGit/nes-lter-events-mvco.
+
+
