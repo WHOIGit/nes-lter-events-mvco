@@ -25,7 +25,7 @@ Read data table
 
 ```{r}
 
-events <- read_excel(here('List of MVCO cruises for NES-LTER project 20230202.xlsx'), sheet = 1, skip = 6)
+events <- read_excel(here('List of MVCO cruises for NES-LTER project 20230208.xlsx'), sheet = 1, skip = 6)
 
 ```
 
@@ -59,7 +59,7 @@ EMLassemblyline
 
 ```{r}
 
-excel_to_template(here('List of MVCO cruises for NES-LTER project 20230202'), 'nes-lter-events-mvco', rights='CC0')
+excel_to_template(here('List of MVCO cruises for NES-LTER project 20230208'), 'nes-lter-events-mvco', rights='CC0')
 
 ```
 
