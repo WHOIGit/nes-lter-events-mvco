@@ -1,0 +1,17 @@
+attributeName	code	definition
+ADCP	Yes	This data type was collected
+ADCP	No	This data type was not collected
+underway	Yes	This data type was collected
+underway	No	This data type was not collected
+CTD	Yes	This data type was collected
+CTD	No	This data type was not collected
+Niskin_samples	Yes	This data type was collected
+Niskin_samples	No	This data type was not collected
+Niskin_samples	NotApplicable	Not applicable because cruise was for project other than NES-LTER
+bucket_sample	Yes	This data type was collected
+bucket_sample	No	This data type was not collected
+bucket_sample	NotApplicable	Not applicable because cruise was for project other than NES-LTER
+bongo_or_other_net	Yes	This data type was collected
+bongo_or_other_net	No	This data type was not collected
+bongo_or_other_net	Unknown	Unknown whether or not this data type was collected
+bongo_or_other_net	NotApplicable	Not applicable because cruise was for project other than NES-LTER
