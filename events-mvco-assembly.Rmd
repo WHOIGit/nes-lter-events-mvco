@@ -25,7 +25,7 @@ Read data table
 
 ```{r}
 
-events <- read_excel(here('List of MVCO cruises for NES-LTER project 20230208.xlsx'), sheet = 1, skip = 6)
+events <- read_excel(here('List of MVCO cruises for NES-LTER project 20250523.xlsx'), sheet = 1, skip = 6)
 
 ```
 
@@ -35,8 +35,8 @@ Update and write data table
 
 events$date = ymd(events$date)
 
-# remove rows after 2022-05-06 and columns for MVCO event number, Google Drive links, and alternate DLA links
-events <- events[-c(82:99),-c(2,6, 8)]
+# remove columns for MVCO event number, Google Drive links, and alternate DLA links
+events <- events[-c(2,6, 8)]
 
 # rename cols to lowercase
 colnames(events)[10] <- "bucket_sample"
@@ -59,7 +59,7 @@ EMLassemblyline
 
 ```{r}
 
-excel_to_template(here('List of MVCO cruises for NES-LTER project 20230208'), 'nes-lter-events-mvco', rights='CC0')
+excel_to_template(here('List of MVCO cruises for NES-LTER project 20250523'), 'nes-lter-events-mvco', rights='CC0')
 
 ```
 
@@ -83,6 +83,6 @@ make_eml(here(),
          user.domain = "LTER",
          package.id = pkg_id)
 
-project_insert(pkg_id)
+project_insert(pkg_id, parent_project_NESI-II_RAPID.txt)
 
 ```
