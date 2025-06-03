@@ -23,6 +23,9 @@ Northeast U.S. Shelf LTER and H.M. Sosik. 2022. Event logs from Northeast U.S. S
 
 Quality assurance and data package assembly
 
-The table of cruises to MVCO is compiled in a spreadsheet with validation for manual data entry. Data package assembly with metadata templates is completed in R, with documentation available at https://github.com/WHOIGit/nes-lter-events-mvco.
+The table of cruises to MVCO is compiled in a spreadsheet with validation for manual data entry. Data package assembly with metadata templates is completed in R, with documentation available at https://github.com/WHOIGit/nes-lter-events-mvco. 
 
 
+Differences From Previous Versions
+
+In version 2, events with MVCO event ID from June 2022 to June 2025 cruises were added. NES-LTER transect cruises that sampled at MVCO were also added from 2018 to present. Tioga cruises in version 1 that did not have NES-LTER sampling were remoeved. Authorship was updated. Data table variable cruise_ID was updated to cruise. Project information was updated to include NES II and RAPID. 
