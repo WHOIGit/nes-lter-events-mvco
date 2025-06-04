@@ -1,8 +1,8 @@
 attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
 date	Date of event	Date		YYYY-MM-DD		
-event_number	Identification number for each MVCO discrete sampling event	character			NotApplicable	Cruise was for project other than NES-LTER
+event_number	Identification number for each sampling event, consisting of either MVCO event number or NES-LTER transect cruise and cast number	character				
 ship	Name of vessel from which samples were collected	character				
-cruise	Identifier for research cruise generally including abbreviation for research vessel and voyage number	character			NA	Vessel was other than R/V Tioga
+cruise	Identifier for research cruise generally including abbreviation for research vessel and voyage number	character			NA	Vessel does not use cruise ID
 Tioga_data_at_WHOI_DLA	Link to data location	character			NA	Vessel was other than R/V Tioga
 ADCP	Indication of whether ADCP data were collected	categorical				
 underway	Indication of whether underway data were collected	categorical				
