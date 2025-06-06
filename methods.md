@@ -18,8 +18,8 @@ Underway seawater data are sometimes collected on Tioga cruises and include surf
 Underway seawater data and CTD water column profiles are always collected on transect cruises and include similar measurements to Tioga cruises. Underway ADCP data are always collected at multiple frequencies. Data for these cruises can be found by searching by cruise number at https://www.rvdata.us/data. 
 
 More information on NES-LTER transect cruises can be found in the published events package on EDI: 
-Northeast U.S. Shelf LTER and H.M. Sosik. 2022. Event logs from Northeast U.S. Shelf Long Term Ecological Research (NES-LTER) Transect cruises, ongoing since 2017 ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/e5289f602facb4579f825cfc71aceddd (Accessed 2025-05-23).
 
+Northeast U.S. Shelf LTER, H.M. Sosik, and E.T. Crockford. 2025. Event logs from Northeast U.S. Shelf Long Term Ecological Research (NES-LTER) Transect cruises, ongoing since 2017 ver 2. Environmental Data Initiative. https://doi.org/10.6073/pasta/0cde75ba26923d87e107a1c440613209 (Accessed 2025-06-05).
 
 # Quality assurance and data package assembly
 

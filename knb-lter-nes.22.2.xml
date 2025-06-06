@@ -79,7 +79,7 @@
       <electronicMailAddress>jkoch@whoi.edu</electronicMailAddress>
       <role>softwareDeveloper</role>
     </associatedParty>
-    <pubDate>2025-06-04</pubDate>
+    <pubDate>2025-06-05</pubDate>
     <abstract>
       <para>This package provides a table of cruises to the Martha's Vineyard Coastal Observatory for Northeast U.S. Shelf Long-Term Ecological Research (NES-LTER). The majority of events are single day cruises, however, samples missing an MVCO Event Number were collected on multi-day NES-LTER transect cruises aboard larger research vessels. The same sampling protocols for CTD and bongo collection are used on both cruise types. </para>
       <para>Sampling  frequency is approximately monthly, with NES-LTER sampling ongoing since 2017. Cruises involve collection of water column bottle samples, surface bucket samples, and zooplankton net tow samples, as well as ship-provided data. NES-LTER transect cruises will have more extensive underway and acoustic data which can be found by searching by cruise at https://www.rvdata.us/data. The event number for each cruise is provided, along with date, vessel name, cruise identifier where applicable, link to data location (for CTD, ADCP, and other underway data), and checklist of six data types.</para>
@@ -172,8 +172,8 @@ Underway seawater data are sometimes collected on Tioga cruises and include surf
 Underway seawater data and CTD water column profiles are always collected on transect cruises and include similar measurements to Tioga cruises. Underway ADCP data are always collected at multiple frequencies. Data for these cruises can be found by searching by cruise number at https://www.rvdata.us/data. 
 
 More information on NES-LTER transect cruises can be found in the published events package on EDI: 
-Northeast U.S. Shelf LTER and H.M. Sosik. 2022. Event logs from Northeast U.S. Shelf Long Term Ecological Research (NES-LTER) Transect cruises, ongoing since 2017 ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/e5289f602facb4579f825cfc71aceddd (Accessed 2025-05-23).
 
+Northeast U.S. Shelf LTER, H.M. Sosik, and E.T. Crockford. 2025. Event logs from Northeast U.S. Shelf Long Term Ecological Research (NES-LTER) Transect cruises, ongoing since 2017 ver 2. Environmental Data Initiative. https://doi.org/10.6073/pasta/0cde75ba26923d87e107a1c440613209 (Accessed 2025-06-05).
 
 # Quality assurance and data package assembly
 
