@@ -25,7 +25,7 @@ Read data table
 
 ```{r}
 
-events <- read_excel(here('List of MVCO cruises for NES-LTER project 20250604.xlsx'), sheet = 1, skip = 6)
+events <- read_excel(here('List of MVCO cruises for NES-LTER project 20260604.xlsx'), sheet = 1, skip = 6)
 
 ```
 
@@ -68,7 +68,7 @@ Generate the package and insert the parent project node into the resulting EML
 
 ```{r}
 
-pkg_id <- 'knb-lter-nes.22.2'
+pkg_id <- 'knb-lter-nes.22.3'
 
 make_eml(here(),
          dataset.title= "Event logs from Northeast U.S. Shelf Long Term Ecological Research (NES-LTER) cruises to the Martha's Vineyard Coastal Observatory (MVCO) ongoing since 2017",
